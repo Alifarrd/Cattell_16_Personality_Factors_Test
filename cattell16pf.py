@@ -12,7 +12,10 @@ with open('data.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     for row in csv_reader:
         data.append(row)
-for j in range (1,51):
+
+l=len(data)
+
+for j in range (1,l):
     c=0
     for i in range (0,16):
         b=int(data[j][i])
