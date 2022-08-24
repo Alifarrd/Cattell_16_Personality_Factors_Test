@@ -27,7 +27,6 @@ for j in range (1,l):
 
 
 re.sort()
-#for k in range(0,10):
-#    print(re[k])
+for k in range(0,10):
+    print(re[k])
 
-print(re)
